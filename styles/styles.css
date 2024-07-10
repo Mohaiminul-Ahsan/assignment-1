@@ -320,3 +320,26 @@ hr {
 
 
 /* My Next Target section */
+.next-target {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.skills-container {
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.skills-container img{
+    height: 75px;
+    width: 85px;
+}
+.skill p{
+    margin-bottom: 25px;
+}
