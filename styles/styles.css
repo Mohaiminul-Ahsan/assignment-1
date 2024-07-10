@@ -317,3 +317,29 @@ hr {
     justify-content: space-evenly;
     gap: 20px;
 }
+
+
+/* My Next Target section */
+.next-target {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.adv-skill-container {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    gap: 25px;
+    align-items: center;
+}
+.adv-skill-container img{
+    height: 75px;
+    width: 85px;
+}
+.adv-skill p{
+    margin-bottom: 20px;
+}
