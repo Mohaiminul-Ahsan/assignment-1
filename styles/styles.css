@@ -192,7 +192,7 @@
     margin: 15px 0;
 }
 
-.card p{
+.card p {
     margin: 15px 0;
 }
 
@@ -203,4 +203,66 @@
     font-weight: 700;
     letter-spacing: 0%;
     text-decoration-line: underline;
+}
+
+
+/* Support Section Styles */
+/* .support {
+    
+} */
+.support {
+    position: relative;
+    background: url('../assets/handshake.jpg') no-repeat center center/cover;
+    border-radius: 16px;
+    max-width: 950px;
+    height: 250px;
+    display: flex;
+    margin: 120px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.support-title {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.support p {
+    color: white;
+    margin: 0 100px 35px;
+}
+
+.feedback-field {
+    background-color: white;
+    padding: 15px 20px;
+    width: 385px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.submit-btn {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 15px;
 }
