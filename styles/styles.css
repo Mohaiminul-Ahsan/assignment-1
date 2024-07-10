@@ -52,6 +52,9 @@
     text-align: center;
 }
 
+.bg-white {
+    background-color: white;
+}
 
 /* banner styles */
 .banner {
@@ -101,10 +104,6 @@
     margin: 100px auto;
 }
 
-.bg-white {
-    background-color: white;
-}
-
 /* box1, box2, box3 sections styles */
 .box {
     display: flex;
@@ -128,9 +127,24 @@
 .boxA {
     display: flex;
     padding: 45px;
-    /* justify-content: ; */
     align-items: stretch;
     gap: 50px;
     border-radius: 10px;
     background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+
+/* My Inspiration Section Styles */
+.inspiration {
+    padding: 75px 90px;
+    max-width: 950px;
+    margin: 100px auto;
+}
+
+.inspiration-video-container {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
