@@ -266,3 +266,22 @@
     border-radius: 5px;
     padding: 10px 15px;
 }
+
+
+/* footer styles */
+.footer{
+    display: flex;
+    background-color: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    justify-content: space-between;
+    padding: 25px 125px;
+    align-items: center;
+}
+.footer ul li{
+    list-style: none;
+}
+.social-media-links{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
