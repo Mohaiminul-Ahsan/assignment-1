@@ -25,6 +25,14 @@
     letter-spacing: 0%;
 }
 
+.title-tertiary {
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 .description {
     color: rgb(13, 19, 33);
     font-weight: 400;
@@ -136,7 +144,7 @@
 
 /* My Inspiration Section Styles */
 .inspiration {
-    padding: 75px 90px;
+    padding: 35px 80px;
     max-width: 950px;
     margin: 100px auto;
 }
@@ -147,4 +155,52 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+}
+
+
+/* Cards Section Styles */
+.cards {
+    max-width: 950px;
+    margin: 45px auto 150px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 28px;
+}
+
+.card1 {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.card2 {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.card3 {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.card-heading {
+    margin: 15px 0;
+}
+
+.card p{
+    margin: 15px 0;
+}
+
+.learn {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-decoration-line: underline;
 }
